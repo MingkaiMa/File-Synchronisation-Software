@@ -2,6 +2,7 @@
 File-Synchronisation-Software based Java
 
 Design and realisation of a directory synchronisation tool 
+
 The project aims at the realisation of a GUI based tool for synchronising the contents of two directories (another word for “folders”). Given two directories, say, A and B, the standard operation will make sure that the contents of direc- tory B become identical to the contents of directory A (as well as – recursively – its subdirectories). This is done with a minimum of file operations – i.e. if two files under the directories are already identical (meaning that file names, as well as contents are equal) nothing happens with these files. When a synchronisation tool is invoked, it will typically first propose a series of synchronisation actions that need to be acknowledged by the user before the actual synchronisation is triggered. 
 The tool is supposed to be developed in Java – version 1.5 or later. The GUI should minimally allow the user to: 
 
