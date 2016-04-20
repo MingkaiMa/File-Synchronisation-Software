@@ -11,6 +11,7 @@ The tool is supposed to be developed in Java – version 1.5 or later. The GUI s
 2.inverse the source/target roles of the specified synchronised directories, 
 
 3.visualise the contents of both directories, with next to the name of each file (subdirectory) the planned synchronisation action: 
+
 create: holds for a file or subdirectory that is present in the source di- rectory and absent in the target directory, 
 
 update: holds for a file that is present in both source and target (sub-) directories and where the most recent version is the one of the source (sub-) directory, 
